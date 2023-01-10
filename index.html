@@ -7,12 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <p><h3>Bejelentkezés</h3></p>
-        <input type="text" id="felhnev">
-        <input type="text" id="jelszo">
-        </form>
-
+    <p>Bejelentkezés:</p>
+<h3>Felhasználónév:</h3>
+<p>
+    <input type="text" id="felhnev">
+</p>
+    <label for="myCheck">Elfogadom az általános szerződési feltételeket</label> 
+    <input type="checkbox" id="myCheck">
+<p>
+    <input type="submit" value="Belépés" onclick="myFunction()">
+</p>
+    <p id="text" style="display:none">Üdv admin!</p>
 </body>
-<script src="atvaltas.js"></script>
+<script src="script.js"></script>
 </html>
